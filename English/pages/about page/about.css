@@ -1,29 +1,30 @@
 html ,body{
     margin: 0;
+    font-family: 'Amiri', serif;
 }
 
 header{
     position:fixed;
     width:100%;
-    background-color:#333;
+    background-color:rgb(199, 190, 107);
     z-index: 1;
 }
 
 a{
 
-    color:white;
+    color:black;
     text-decoration: none;
 
 }
 
 nav:hover{
 
-  background-color:black;
+  background-color:yellow;
 }
 
 a:hover{
 
-    color:aqua;
+    color:orange;
 }
 
 
@@ -46,7 +47,7 @@ a:hover{
     margin:0 auto;
     width:30%;
     height:10px;
-    background-color:#333;
+    background-color:rgb(199, 190, 107);
 
 }
 
@@ -68,8 +69,8 @@ padding:30px;
     margin: 0 auto;
     width:80%;
     box-sizing: border-box;
-    border-left: 1px solid #333;
-    border-right:1px solid #333;
+    border-left: 1px solid rgb(199, 190, 107);
+    border-right:1px solid rgb(199, 190, 107);
     
 
 
@@ -80,7 +81,7 @@ padding:30px;
 
 .gather{
     margin: 5%;
-    text-align: left;
+    text-align: right;
 
     box-sizing: border-box;
     padding:20px;
@@ -95,7 +96,7 @@ padding:30px;
     width:30%;
     height:3px;
     margin: 0 auto;
-    background-color: #333;
+    background-color: rgb(199, 190, 107);
    
     z-index: 3;
 
@@ -111,8 +112,8 @@ padding:30px;
     margin-top:10px;
     width:100%;
     height:100px;
-    background-color:#333;
-    color:white;
+    background-color:rgb(199, 190, 107);
+    color:black;
     z-index: 6;
 
 
@@ -158,7 +159,7 @@ nav{
 
 nav li{
     
-    color:#fff;
+    color:black;
     display:inline-block;
     font-size:20px;
     font-weight:600;
@@ -193,10 +194,10 @@ nav li{
 
   #button{
 
-    
+    font-family:'Reem Kufi', sans-serif;
     min-height:10%;
-    background-color:#333;
-    color:#fff;
+    background-color:rgb(199, 190, 107);
+    color:black;
     position: relative;
     bottom:50%;
     margin:0 auto;
@@ -207,8 +208,8 @@ nav li{
 #btn-main {
    
     
-   background-color: #333;
-    color: #fff;
+   background-color: rgb(199, 190, 107);
+    color: black;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 18px;
