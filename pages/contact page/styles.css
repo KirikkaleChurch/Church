@@ -1,0 +1,272 @@
+
+html ,body{
+    background-color:rgb(255, 255, 220);
+    margin: 0;
+    padding: 0;
+    font-family: 'Amiri', serif;
+    
+}
+
+header{
+    position:fixed;
+    width:100%;
+    background-color:rgb(199, 190, 107);
+    z-index: 1;
+    height:202px;
+}
+
+nav{
+    float:right;
+    
+    margin: 50px 0;
+    padding:20px 0;
+}
+
+nav li{
+    
+    color:#fff;
+    display:inline-block;
+    font-size:20px;
+    font-weight:600;
+    width:100px;
+    
+
+}
+
+a{
+
+    color:rgb(19, 18, 18);
+    text-decoration: none;
+
+}
+
+
+a:hover{
+
+    color:yellow;
+}
+
+
+
+#logo-container{
+  
+    width:200px;
+    height:200px;
+    position:fixed;
+    left:2%;
+    top: 22px;
+    z-index: 1;
+    background-color: aqua;
+    
+}
+
+
+
+
+
+
+#logo{
+
+    width:100%;
+    height:100%;
+    
+  
+
+
+}
+
+#btn-main:hover{
+
+    color:aqua;
+}
+
+
+
+
+#banner-container{
+    position: relative;
+    top:202px;
+    width:100%;
+    height:80vh;
+    margin:20px auto 90px auto;
+
+   
+
+}
+
+#banner{
+    width:100%;
+    height:80vh;
+    margin-bottom: -27px;
+
+  
+
+}  #button:hover{
+    opacity: 1;
+   
+}
+
+  #button{
+
+    font-family:'Reem Kufi', sans-serif;
+    min-height:10%;
+    background-color:rgb(199,190,107);
+    color:black;
+    position: relative;
+    bottom:50%;
+    margin:0 auto;
+    opacity:0.8;
+    text-align:center;    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*gallery styles*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    background: #f9f9f9;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .container {
+    
+    position: relative;
+    top: 170px;
+    max-width: 1100px;
+    margin: 0 auto 205px auto;
+    overflow: auto;
+    padding: 0 2rem;
+  }
+  
+  .main-header {
+    height: 55vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .main-header h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+  }
+  
+  .main-header h1 span {
+    color: #b50d10;
+  }
+  
+  .main-header p {
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: #f1f1f1;
+    margin-bottom: 2rem;
+  }
+  
+  .card h3 {
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right:auto;
+  }
+  
+  .card img {
+      width:400px;
+    height: 400px;
+  }
+  
+  .card > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    justify-content: space-around;
+  }
+  
+  .card:nth-child(even) img {
+    order: 2;
+  }
+  
+  
+  .btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 0.8rem 1.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  @media(max-width:600px) {
+    .card {
+      display: block;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+.f-container{
+    box-sizing: border-box;
+    padding-top:40px;
+    text-align:center;
+    font-family:"Reem Kufi";
+    margin-top:10px;
+    width:100%;
+    height:100px;
+    background-color:rgb(199, 190, 107);
+    color:black;
+    z-index: 6;
+
+
+}
+
+
